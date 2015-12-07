@@ -1,0 +1,64 @@
+/*CSS Stylesheet*/
+
+/** {border: 1px solid black;}*/
+
+body {
+    margin: 0;
+    background-color: aquamarine;
+}
+img {
+    max-width: 100%;
+}
+
+#turtle4 { 
+     bottom: -120%;
+     position: absolute;
+     animation: fall .5s infinite; 
+    animation-fill-mode: forwards;
+ }
+
+#turtle1 { 
+     bottom: -70%;
+     position: absolute;
+     animation: fall .5s infinite; 
+    animation-fill-mode: forwards;
+ }
+
+#turtle2 { 
+     bottom: -20%;
+     position: absolute;
+     animation: fall .5s infinite; 
+    animation-fill-mode: forwards;
+ }
+
+#turtle3 { 
+     bottom: 30%;
+     position: absolute;
+     animation: fall .5s infinite; 
+    animation-fill-mode: forwards;
+ }
+
+#turtle5 { 
+     bottom: 80%;
+     position: absolute;
+     animation: fall .5s infinite; 
+     animation-fill-mode: forwards;
+ }
+
+
+
+@keyframes fall {
+    0% {
+    animation-timing-function: ease-in-out;
+    }
+    
+    50%{ 
+    margin-bottom: 183px;
+    animation-timing-function: ease-in-out;
+    } 
+    
+    100% {
+   margin-bottom: 364px;
+    animation-timing-function: ease-in-out;
+    } 
+    
